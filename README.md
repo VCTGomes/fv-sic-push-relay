@@ -29,7 +29,7 @@ Esse arquivo não exige instalação, mas caso você queira auto-hospedar, sinta
 Obs.: é necessário recompilar o aplicativo com seu próprio código Firebase para que o push alterado funcione.
 
 ```bash
-git clone [<url-do-repositorio>](https://github.com/VCTGomes/fv-sic-push-relay)
+git clone https://github.com/VCTGomes/fv-sic-push-relay
 cd relay-fv
 npm install
 ```
