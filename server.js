@@ -69,6 +69,7 @@ app.post('/push', limitPush, async (req, res) => {
         data,
         android: {
             priority: 'high',
+            fcmOptions: { analyticsLabel: tipo },
             notification: {
                 channelId: isVisivel ? 'forca_vendas_v2' : 'fv_sync_silent',
                 tag: tipo,
